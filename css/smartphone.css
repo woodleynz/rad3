@@ -1,0 +1,46 @@
+/*
+*****************************************************************************
+	Contents: Stylesheet for smaller devices
+*****************************************************************************
+*/
+
+footer {
+		background: none !important;
+	}	
+	
+	#nav_footer {
+		width:100% !important;
+		margin:0;
+		padding:0;
+		line-height:18px;
+	}
+	#nav_footer ul {
+		margin:0;
+		padding:0;
+	}	
+	#nav_footer ul li{
+		font-size:16px;
+		display: block;
+		width:100% !important;
+		margin:0;
+		padding:0;
+		background:#353535;
+		text-shadow:none;
+	}	
+	#nav_footer a{
+		color:#fff;
+		display:block;
+		padding: 10px 0 10px 25px;		
+		border-bottom:1px solid #dbcebf;
+	}
+	#nav_footer a:hover {
+		color:#98c85a;
+	}
+	
+	#nav_footer .lastchild {
+		border-bottom:none;
+	}
+	
+	#nav_footer li.current {
+		display:none;
+	}

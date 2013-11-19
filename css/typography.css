@@ -1,0 +1,72 @@
+/*
+*****************************************************************************
+	Contents: 	Typography baseline 
+	Chur: 		Stephanecurzi.me / joshnh.com	
+*****************************************************************************
+*/
+
+body						{ 	font-size: 100%;   
+								font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  								font-weight: normal;
+  								font-style: normal;
+  								color: #444;	}
+		
+h1, h2, h3, h4, h5, h6, p	{ 	position: relative; }
+h1, h2						{	font-family: "adelle-sans",sans-serif;
+								font-style: normal;
+								font-weight: 100;
+								color:#68a214;
+								color:#444;}
+h3, h4, h5, h6				{	font-family: "adelle-sans",sans-serif;
+								font-style: normal;
+								font-weight: 100;}								
+h1							{ 	font-size: 1.8750em; /* 36px */
+  								line-height: 1.3889em; /* 50px */
+  								margin-top: 1.6944em;  margin-bottom: 0.6944em; }
+h2							{ 	font-size: 1.8750em; /* 30px */
+  								line-height: 1.6667em; /* 50px */
+  								margin-top: 0.8333em;  margin-bottom: 0.0000em; }
+h3							{ 	font-size: 1.5000em; /* 24px */
+  								line-height: 1.0417em; /* 25px */
+ 								margin-top: 1.0417em;  margin-bottom: 0.0000em; }
+h4							{ 	font-size: 1.2500em; /* 20px */
+  								line-height: 1.2500em; /* 25px */
+  								margin-top: 1.2500em;  margin-bottom: 0.0000em;}
+h5							{ 	font-size: 1.2500em; /* 20px */
+  								line-height: 1.2500em; /* 25px */
+  								margin-top: 1.2500em;  margin-bottom: 0.0000em;}
+h6							{ 	font-size: 1.2500em; /* 20px */
+  								line-height: 1.2500em; /* 25px */
+  								margin-top: 1.2500em;  margin-bottom: 0.0000em;}
+h1:first-child,
+h2:first-child,
+h3:first-child,
+h4:first-child				{ 	margin-top: 0; }
+
+p, pre, address				{ 	font-size: 1em; /* 16px */
+  								line-height: 1.5000em; /* 24px */
+  								margin: 0 0 1.5000em 0;
+								padding:0;
+								color:#666; }
+small						{ 	font-size: 0.8em; }
+blockquote 					{ 	color:#ccc;
+								border-left:2px solid #eee;
+								font-size: 1.2500em; /* 20px */
+  								line-height: 1.2500em; /* 25px */
+								letter-spacing:2px;
+  								margin: 1.2500em 0;
+								padding:0 0 0 0.8em;}
+abbr, code, kbd,
+samp, small, var			{ 	line-height: 1.5000em; }
+ul, ol, dl, dialog			{ 	font-size: 1em; line-height: 1.5000em; position: relative;  
+								margin-top: 18px; margin-bottom: 18px; }
+li ul, li ol, ul ul, ol ol	{ 	margin-top: 0; margin-bottom: 0; }
+li h1, li h2, li h3,
+li h4, li h5, li h6,
+li p						{ 	 }
+form, legend, label			{ 	font-size: 1em; line-height: 1.5000em; }
+legend						{ 	position: relative; }
+table						{ 	font-size: 1em; }
+caption						{ 	font-size: 1em; line-height: 1.5000em;position: relative; }
+
+
